@@ -2,7 +2,9 @@ body{
   background-color:#FFFFF0;
   font-family:Dancing Script;
 }
-
+img {
+  width: 300px;
+}
 
 
 h1{
