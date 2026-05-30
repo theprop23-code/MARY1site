@@ -1,19 +1,19 @@
 body {
 margin: 0;
-font-family: Arial, sans-serif;
-background: linear-gradient(to bottom, #fff8f0, #f7e8d5);
 text-align: center;
+font-family: Arial, sans-serif;
+background-color: #fffaf0;
 }
 
 header {
-background-color: #8b5e3c;
+background: #6d4c41;
 color: white;
 padding: 20px;
 }
 
 h1 {
 font-family: "Dancing Script", cursive;
-font-size: 80px;
+font-size: 70px;
 margin: 10px;
 }
 
@@ -25,59 +25,35 @@ font-size: 20px;
 }
 
 nav a:hover {
-color: gold;
-}
-
-section {
-padding: 30px;
+color: #ffd54f;
 }
 
 h2 {
-color: #8b5e3c;
-font-size: 35px;
+color: #6d4c41;
+margin-top: 30px;
 }
 
 p {
+max-width: 700px;
+margin: 20px auto;
 font-size: 18px;
-max-width: 800px;
-margin: auto;
 line-height: 1.6;
 }
 
 img {
-max-width: 300px;
-border-radius: 20px;
+width: 300px;
 margin: 15px;
-box-shadow: 0 0 15px gray;
-}
-
-.gallery {
-display: flex;
-justify-content: center;
-flex-wrap: wrap;
-}
-
-.card {
-background-color: white;
-width: 250px;
-margin: 15px;
-padding: 15px;
 border-radius: 15px;
-display: inline-block;
-box-shadow: 0 0 10px gray;
-}
-
-.card h3 {
-color: #8b5e3c;
+box-shadow: 0 4px 10px gray;
 }
 
 iframe {
 border-radius: 15px;
-box-shadow: 0 0 15px gray;
+box-shadow: 0 4px 10px gray;
 }
 
 footer {
-background-color: #8b5e3c;
+background: #6d4c41;
 color: white;
 padding: 15px;
 margin-top: 30px;
