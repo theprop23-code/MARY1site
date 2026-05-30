@@ -1,7 +1,7 @@
 body {
 margin: 0;
 font-family: Arial, sans-serif;
-background-color: #fff8f0;
+background: linear-gradient(to bottom, #fff8f0, #f7e8d5);
 text-align: center;
 }
 
@@ -13,7 +13,7 @@ padding: 20px;
 
 h1 {
 font-family: "Dancing Script", cursive;
-font-size: 70px;
+font-size: 80px;
 margin: 10px;
 }
 
@@ -29,27 +29,51 @@ color: gold;
 }
 
 section {
-margin: 40px;
+padding: 30px;
 }
 
 h2 {
 color: #8b5e3c;
+font-size: 35px;
+}
+
+p {
+font-size: 18px;
+max-width: 800px;
+margin: auto;
+line-height: 1.6;
 }
 
 img {
+max-width: 300px;
 border-radius: 20px;
+margin: 15px;
 box-shadow: 0 0 15px gray;
 }
 
-ul {
-list-style-type: square;
+.gallery {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+}
+
+.card {
+background-color: white;
+width: 250px;
+margin: 15px;
+padding: 15px;
+border-radius: 15px;
 display: inline-block;
-text-align: left;
-font-size: 20px;
+box-shadow: 0 0 10px gray;
+}
+
+.card h3 {
+color: #8b5e3c;
 }
 
 iframe {
 border-radius: 15px;
+box-shadow: 0 0 15px gray;
 }
 
 footer {
